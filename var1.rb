@@ -43,24 +43,22 @@
 # Student.new(1,"Sara").show
 # Student.new(0,"Raju").show
 
+class School 
+    @@no_off_students = 80
+end
+
+class V < School 
+    @@no_off_students = 75
+end
+
+class Y <School 
+    @@no_off_students = 70
+end
 
 
-# class School 
-#     @@no_off_students = 80
-# end
-
-# class V < School 
-#     @@no_off_students = 75
-# end
-
-# class Y <School 
-#     @@no_off_students = 70
-# end
-
-
-# puts School.class_eval("@@no_off_students")
-# puts V.class_eval("@@no_off_students")
-# puts Y.class_eval("@@no_off_students")
+puts School.class_eval("@@no_off_students")
+puts V.class_eval("@@no_off_students")
+puts Y.class_eval("@@no_off_students")
 
 
 
@@ -72,9 +70,9 @@
 # end
 # puts x
 
-y = 0
-3.times do 
-    y +=1
-    x = y
-end
+# y = 0
+# 3.times do 
+#     y +=1
+#     x = y
+# end
  

@@ -38,17 +38,17 @@
 
 
 # Class method and instance method
-# class Invoice
-#     # Class method
-#     def self.print_out 
-#         "Printed out invoice"
-#     end
-#     # instance method
-#     def convert_to_pdf
-#         "Convert to pdf"
-#     end
-# end
-# puts Invoice.print_out
+class Invoice
+    # Class method
+    def self.print_out 
+        "Printed out invoice"
+    end
+    # instance method
+    def convert_to_pdf
+        "Convert to pdf"
+    end
+end
+puts Invoice.print_out
 # puts Invoice.convert_to_pdf => make error cause is not a class method  => create a instance to run
 
 
