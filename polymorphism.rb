@@ -1,3 +1,4 @@
+# Tính đa hình
 class Box
     def initialize w , h
         @width,@height = w,h

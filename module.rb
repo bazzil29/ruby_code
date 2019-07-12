@@ -1,3 +1,6 @@
+    # Module là 1 tập hợp các method , class , biến , ....
+    # => mọi classes cũng chinhs là các module , có thể include, extend ,....
+    #  Khổng phải các module đã là class
     module Warmup
         def push_up
             "Phew, I need a break!"
