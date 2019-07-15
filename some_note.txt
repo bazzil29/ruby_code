@@ -1,0 +1,6 @@
+$files # A global variable
+@data # An instance variable
+@@counter # A class variable
+empty? # A Boolean-valued method or predicate
+sort! # An in-place alternative to the regular sort method
+timeout= # A method invoked by assignment

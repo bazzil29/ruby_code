@@ -1,0 +1,6 @@
+ri is command line tool to document something in ruby such as Hash => ri Hash 
+document a method with "." => ri Hash.each
+document a instance method with "#" => ri Hash#each
+document a class method with "::" => ri Hash::each
+
+
