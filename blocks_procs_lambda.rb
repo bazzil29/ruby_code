@@ -37,11 +37,9 @@ array = [1,2,3,4]
 square = Proc.new  do |n|
     n**2
 end
- array.iterate!(&square)
-# puts array.inspect
-
+array.iterate!(&square)
+puts %w[A B C].map(&:downcase)
 # square.call(2)
-
 
 
 # lambda
